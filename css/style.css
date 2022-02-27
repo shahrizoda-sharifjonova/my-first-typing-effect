@@ -13,7 +13,7 @@ body{
     font-size: 25px;
     color: #fff;
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://cdn.wallpapersafari.com/99/83/URZvj3.jpg) center / cover no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../bg.jpg) center / cover no-repeat;
 }
 .typing{
     position: relative;
