@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.intro{
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    font-size: 25px;
+    color: #fff;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://cdn.wallpapersafari.com/99/83/URZvj3.jpg) center / cover no-repeat;
+}
+.typing{
+    position: relative;
+    margin-left: 10px;
+    color: rgb(235, 175, 235);
+}
+.typing::after{
+    content: '';
+    position: absolute;
+    top: 10px;
+    right: -5px;
+    height: 5%;
+    width: 1px;
+    border-right: 2px solid #fff;
+    animation: blink 0.5s infinite ease;
+}
+@keyframes blink{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
